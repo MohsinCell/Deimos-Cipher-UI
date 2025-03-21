@@ -1,0 +1,1 @@
+cmd_Release/obj.target/deimos_cipher.node := g++ -o Release/obj.target/deimos_cipher.node -shared -pthread -rdynamic -m64  -Wl,-soname=deimos_cipher.node -Wl,--start-group Release/obj.target/deimos_cipher/src/addon/binding.o Release/obj.target/deimos_cipher/src/addon/core.o -Wl,--end-group -lsodium -lssl -lcrypto

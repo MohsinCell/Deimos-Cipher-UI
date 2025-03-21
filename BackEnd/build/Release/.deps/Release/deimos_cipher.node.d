@@ -1,0 +1,1 @@
+cmd_Release/deimos_cipher.node := ln -f "Release/obj.target/deimos_cipher.node" "Release/deimos_cipher.node" 2>/dev/null || (rm -rf "Release/deimos_cipher.node" && cp -af "Release/obj.target/deimos_cipher.node" "Release/deimos_cipher.node")
